@@ -1,5 +1,7 @@
 # Automação de Certificados e Envio de E-mails - SEELECT
 
+> [!WARNING]: Nunca faça o commit das presenças no github. Sempre verifique se existem arquivos CSV ou PDFs com dados sensíveis antes de subir o repositório.
+
 Este repositório contém duas automações em Python desenvolvidas para processar as listas de presença (exportadas do Google Forms em formato CSV), gerar certificados personalizados em PDF e realizar o envio automático dos certificados por e-mail para os participantes.
 
 ## Estrutura do Repositório
@@ -34,8 +36,6 @@ Em ambos os arquivos `automacao.py`, as configurações de e-mail ficam no iníc
 O script extrai o nome do evento diretamente do nome do arquivo `.csv` (removendo a extensão).
 
 - **Atenção**: Nomeie os arquivos CSV na pasta de entrada de forma limpa e padronizada antes de rodar o código.
-
-> [!WARNING]: Nunca faça o commit das presenças no github
 
 ## Como Executar
 
