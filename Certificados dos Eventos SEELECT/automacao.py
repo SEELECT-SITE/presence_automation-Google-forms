@@ -22,8 +22,8 @@ PASTA_SAIDA = os.path.join(DIRETORIO_SCRIPT, 'certificados_gerados')
 
 EMAIL_REMETENTE = 'seelect2023@gmail.com' 
 SENHA_REMETENTE = 'uegqadhyrluhxdgw' 
-ASSUNTO_EMAIL = 'Certificado de Participação SEELECT 2025'
-CORPO_EMAIL = 'Olá, {nome}!\n\nSegue em anexo o seu certificado de participação da SEELECT 2025.\n\nDevido a um erro de compatibilidade, estamos reenviando o certificado. Em caso de dúvidas ou problemas, entre em contato por e-mail: seelect@ufc.br\n\nAtenciosamente,\nEquipe Organizadora da SEELECT'
+ASSUNTO_EMAIL = 'Certificado de Participação SEELECT 2026'
+CORPO_EMAIL = 'Olá, {nome}!\n\nSegue em anexo o seu certificado de participação da SEELECT 2026.\n\nDevido a um erro de compatibilidade, estamos reenviando o certificado. Em caso de dúvidas ou problemas, entre em contato por e-mail: seelect@ufc.br\n\nAtenciosamente,\nEquipe Organizadora da SEELECT'
 
 # Coordenadas (X, Y)
 COORD_NOME = (421, 370)        
@@ -50,7 +50,7 @@ def preencher_certificado(nome, horas, caminho_saida):
     texto_linhas = [
         "participou da Semana de Engenharia Elétrica, da Computação e de",
         "Telecomunicações da Universidade Federal do Ceará, no período",
-        f"de 3 a 7 de novembro de 2025, com carga horária total de {horas} horas."
+        f"de 3 a 7 de novembro de 2026, com carga horária total de {horas} horas."
     ]
     
     espaco = 25 

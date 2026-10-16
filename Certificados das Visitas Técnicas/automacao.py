@@ -26,8 +26,8 @@ PASTA_SAIDA = os.path.join(DIRETORIO_SCRIPT, 'certificados_gerados')
 
 EMAIL_REMETENTE = 'seelect2023@gmail.com' 
 SENHA_REMETENTE = 'uegqadhyrluhxdgw' 
-ASSUNTO_EMAIL = 'Certificado Visita Técnica Ajustado - SEELECT UFC 2025'
-CORPO_EMAIL = 'Olá, {nome}!\n\nSegue em anexo o seu certificado de participação na visita técnica da SEELECT 2025.\n\nEm caso de dúvidas ou problemas, entre em contato por e-mail: seelect@ufc.br\n\nAtenciosamente,\nEquipe Organizadora da SEELECT'
+ASSUNTO_EMAIL = 'Certificado Visita Técnica Ajustado - SEELECT UFC 2026'
+CORPO_EMAIL = 'Olá, {nome}!\n\nSegue em anexo o seu certificado de participação na visita técnica da SEELECT 2026.\n\nEm caso de dúvidas ou problemas, entre em contato por e-mail: seelect@ufc.br\n\nAtenciosamente,\nEquipe Organizadora da SEELECT'
 
 # Coordenadas (X, Y) no certificado
 COORD_NOME = (421, 370)        
