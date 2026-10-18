@@ -35,7 +35,8 @@ Em ambos os arquivos `automacao.py`, as configurações de e-mail ficam no iníc
 
 O script extrai o nome do evento diretamente do nome do arquivo `.csv` (removendo a extensão).
 
-- **Atenção**: Nomeie os arquivos CSV na pasta de entrada de forma limpa e padronizada antes de rodar o código.
+- **Atenção**: Os Google Forms de eventos devem ser criados com o o nome e as perguntas padronizadas, vide exemplos de forms de 2025 para referência, pois o Google Forms utiliza "essestítulos" para nomear o arquivo CSV exportado.
+  Exemplo: `Evento SEELECT 2025 - Palestra de Abertura.csv` resultará em um certificado com o título "Evento SEELECT 2025 - Palestra de Abertura". Perguntas como "Nome Completo" e "E-mail" devem ser nomeadas exatamente assim para que o CSV seja criado corretamente.
 
 ## Como Executar
 
